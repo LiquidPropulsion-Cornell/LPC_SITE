@@ -1,0 +1,94 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background {
+    background: url('mountain background.avif') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.title {
+    font-size: 3em;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.date {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date.active {
+    background: #C11C26;
+}
+
+.label {
+    font-size: 0.9em;
+    white-space: nowrap;
+}
+
+.application-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    background-color: #C11C26;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #A0151D;
+}
+
+.due-date {
+    font-size: 0.9em;
+}
